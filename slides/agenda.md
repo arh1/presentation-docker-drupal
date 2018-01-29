@@ -2,10 +2,11 @@
 
 * (Quick!) history of local Drupal dev
 * About Docker
-* Drupal Docker Options
+* Drupal and Docker
 * docker4drupal
 * Lando
 * Docksal
+* Recap & Discussion
 
 ~Notes:
 
