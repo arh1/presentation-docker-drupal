@@ -48,6 +48,7 @@
 
 * Like a VM, but all containers on a host share the same OS
 * Each container runs as its own process on the host
+* Facilitate microservices architecture
 
 
 ### Containers: How
