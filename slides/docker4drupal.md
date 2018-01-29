@@ -1,6 +1,6 @@
-## docker4drupal
+## Docker4Drupal
 
-![wodby](slides/img/logo-wodby.png)
+![Wodby](slides/img/logo-wodby.png)
 
 ~Notes:
 
