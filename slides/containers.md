@@ -4,6 +4,7 @@
 * Easier to maintain than VMs
 * Easy to share with other devs
 * Easy to duplicate across locals, stage, prod
+* Flexibility & modularity
 
 
 ### Containers: What
