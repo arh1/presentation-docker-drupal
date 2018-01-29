@@ -1,8 +1,8 @@
 ### Agenda
 
-* (Quick!) history of local Drupal dev
+* (Quick!) History of Local Drupal Dev
 * About Docker
-* Drupal and Docker
+* Drupal & Docker
 * Docker4Drupal
 * Lando
 * Docksal
