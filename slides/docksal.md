@@ -1,17 +1,44 @@
 ![Docksal](slides/img/logo-docksal.png)
 
 ~Notes:
-
 * 
 
 
 ### Install
 
 
-### Project Setup
+### App Setup
 
 
-### Working with Projects
+### Working with Apps
+
+ <pre><code class="bash" data-trim data-noescape>
+# Start:
+$ lando start
+
+# CLI:
+$ 
+
+# Logs:
+$ 
+
+# Stop:
+$ lando poweroff
+</code></pre>
+
+
+### Working with Apps
+
+ <pre><code class="bash" data-trim data-noescape>
+# Drush:
+$ 
+
+# Console:
+$ 
+
+# Composer:
+$ 
+</code></pre>
 
 
 ### Debugging
