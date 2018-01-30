@@ -7,7 +7,7 @@
 
 * Docker !== containers
 * Docker is a company, and open source toolset
-* Docker CE (dev tools); Docker EE (enterprise prod infrastructure)
+* Docker CE (dev tools) vs Docker EE (enterprise prod infrastructure)
 * Docker isn't 5 yet
 * docker.com <- Drupal
 
@@ -39,5 +39,31 @@
 * MacOS/Win file system performance issues
 
 ~Notes:
-* Mac/Win fs issues being improved currently
+* Install includes: Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic
+* Mac/Win fs issues being improved currently + workarounds
 * Docker sync mitigates for MacOS
+
+
+### Working with Apps in Docker
+
+ <pre><code class="bash" data-trim data-noescape>
+# Start an app (in background) based on docker-compose.yml:
+$ docker-compose up -d
+
+# List running containers (including names):
+$ docker-compose ps
+
+# Check logs:
+$ docker-compose logs [CONTAINER_NAME]
+
+# Stop an app:
+$ docker-compose stop
+
+# Destroy containers (watch out!):
+$ docker-compose down
+</code></pre>
+
+~Notes:
+* docker-compose up will pull images if you don't have them yet
+* docker-compose to work with multi-container apps
+* docker for lower-level commands; interact with images, build an app
