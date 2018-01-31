@@ -1,5 +1,7 @@
 ![Docksal](slides/img/logo-docksal.png)
 
+## FFW
+
 ~Notes:
 * 
 
@@ -14,16 +16,19 @@
 
  <pre><code class="bash" data-trim data-noescape>
 # Start:
-$ lando start
+$ 
 
-# CLI:
+# Execute command in container:
+$ 
+
+# SSH into 'appserver' container:
 $ 
 
 # Logs:
 $ 
 
 # Stop:
-$ lando poweroff
+$ 
 </code></pre>
 
 
@@ -37,6 +42,12 @@ $
 $ 
 
 # Composer:
+$ 
+
+# DB import/export:
+$ 
+
+# Share environment publicly:
 $ 
 </code></pre>
 

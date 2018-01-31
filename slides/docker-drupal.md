@@ -22,7 +22,7 @@
 * Drupal Docker Initiative
 * DrupalVM (Docker version)
 * Drupal image from Docker Hub
-* Custom Docker Compose
+* Custom Docker compose
 
 ~Notes:
 * Range from completely custom to drop in place

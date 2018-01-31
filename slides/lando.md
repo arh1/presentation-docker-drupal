@@ -1,5 +1,7 @@
 ![Lando](slides/img/logo-lando.png)
 
+## Tandem
+
 ~Notes:
 * Very powerful command line: lando
 
@@ -12,8 +14,7 @@
 
 ### App Setup
 
-_To use an existing Drupal codebase_
-
+1. Create your Drupal codebase
 1. Initialize your project with ```lando init``` or manually
 1. Select a recipe during init
 1. <pre><code class="bash" data-trim data-noescape>lando start</code></pre>
@@ -70,6 +71,17 @@ $ lando share
 1. Set ```xdebug: true``` for php service in .lando.yml
 1. Configure your IDE to use Xdebug
 1. Start debugging session
+
+
+### Extras
+
+* Add build step in .lando.yml, run during ```lando start```
+* Nice integration with Composer, phpunit, phpcs 
+* Nice integratio docs w/ CI tools
+* Tooling: custom lando commands
+
+~Notes:
+* With build step, 'lando start' will initialize/update entire app
 
 
 ### Pros/Cons

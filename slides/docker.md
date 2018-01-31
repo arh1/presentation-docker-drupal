@@ -28,7 +28,7 @@
 * Volumes
 
 ~Notes:
-* 
+* Microservices architecture
 
 
 ### Installing Docker
@@ -64,6 +64,6 @@ $ docker-compose down
 </code></pre>
 
 ~Notes:
-* docker-compose up will pull images if you don't have them yet
-* docker-compose to work with multi-container apps
 * docker for lower-level commands; interact with images, build an app
+* Docker compose to work with multi-container apps
+* 'docker-compose up' will pull images if you don't have them yet

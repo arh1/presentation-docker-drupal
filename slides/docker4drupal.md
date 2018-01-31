@@ -18,10 +18,9 @@
 
 ### App Setup
 
-_To use an existing Drupal codebase_
-
+1. Create your Drupal codebase
 1. Download Docker4Drupal's docker-compose.yml
-1. docker-compose.yml: Uncomment an image, change some paths 
+1. Compose file: Uncomment an image, change some paths 
 1. Set db credentials in settings.php
 1. Edit /etc/hosts to configure domains
 1. <pre><code class="bash" data-trim data-noescape>docker-compose up -d</code></pre>
@@ -85,15 +84,15 @@ $
 
 ### Debugging
 
-1. Set ```PHP_XDEBUG: 1``` and ```PHP_XDEBUG_DEFAULT_ENABLE: 1``` in compose file
+1. Compose file: set ```PHP_XDEBUG: 1``` and ```PHP_XDEBUG_DEFAULT_ENABLE: 1```
 1. A couple of additional networking steps for macOS and Win
 1. Configure your IDE to use Xdebug
 1. Start debugging session
 
 
-### Pros/Cons
+### Extras
 
-* 
+* Deploy to Wodby!
 
 ~Notes:
 * 
