@@ -19,9 +19,11 @@
 * Docker4Drupal, Lando, Docksal
 * Phase2 DevTools
 * DDev
+* Drupal Docker Initiative
 * DrupalVM (Docker version)
 * Drupal image from Docker Hub
 * Custom Docker Compose
 
 ~Notes:
 * Range from completely custom to drop in place
+* Some discussion about consolidating efforts

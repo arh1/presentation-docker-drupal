@@ -7,7 +7,7 @@
 ### Install
 
 1. Install Docker
-1. Install Lando (installers for Win, Mac)
+1. Run Lando installer (for Win, Mac) or download package (Linux)
 
 
 ### App Setup
@@ -35,8 +35,8 @@ $ lando start
 # SSH into 'appserver' container:
 $ lando ssh appserver
 
-# Logs:
-$ lando logs
+# Logs from 'appserver' container:
+$ lando logs appserver
 
 # Stop:
 $ lando poweroff
@@ -45,7 +45,7 @@ $ lando poweroff
 
 ### Working with Apps
 
- <pre><code class="bash" data-trim data-noescape>
+<pre><code class="bash" data-trim data-noescape>
 # Drush, Console, Composer:
 $ lando drush status
 $ lando drupal list
@@ -53,6 +53,9 @@ $ lando composer list
 
 # Execute PHP:
 $ lando php -r 'echo "foo\n";'
+
+# MySQL shell:
+$ lando mysql
 
 # DB import/export:
 $ lando db-import my-db-dump.sql
@@ -64,8 +67,15 @@ $ lando share
 
 ### Debugging
 
+1. Set ```xdebug: true``` for php service in .lando.yml
+1. Configure your IDE to use Xdebug
+1. Start debugging session
+
 
 ### Pros/Cons
 
 ~Notes:
-* lando will save you a lot of searching and typing
+* lando cli will save you a lot of searching and typing
+* lando services dynamically create Docker compose object
+* .lando.yml rather than docker-compose.yml (by default)
+* can't run docker-compose commands

@@ -7,6 +7,7 @@
 * You provide server (e.g. AWS acct) and repo
 * Wodby handles management + deployment via dashboard
 * Local dev options are bare bones Docker/Drupal approach by Wodby
+* Essentially a nice compose file that's tuned for Drupal
 * "Stacks" for deploying to prod
 
 
@@ -40,33 +41,42 @@ $ docker-compose up -d
 # Execute command in 'php' container:
 $ docker-compose exec --user 82 php ls
 
-# SSH into 'php' container:
-$ 
+# Execute shell in ("SSH into") 'php' container:
+$ docker-compose exec --user 82 php /bin/bash
 
 # Logs from 'php' container:
-$ docker-compose logs --user 82 php
+$ docker-compose logs php
 
 # Stop:
 $ docker-compose stop
 </code></pre>
+
+~Notes:
+* 82 is default uid/gid for www-data user on Alpine Linux (otherwise root)
 
 
 ### Working with Apps
 
  <pre><code class="bash" data-trim data-noescape>
 # Drush, Console, Composer:
-$ docker-compose exec --user 82 php drush status
+$ docker-compose exec --user 82 php drush status -r
+  /var/www/html/web
 $ docker-compose exec --user 82 php drupal list
-$ 
+$ docker-compose exec --user 82 php composer list
 
 # Execute PHP:
-$ lando php -r 'echo "foo\n";'
+$ docker-compose exec --user 82 php php -r 'echo "foo\n";'
 
 # MySQL shell:
-$ lando mysql
+$ docker-compose exec mariadb /usr/bin/mysql -uroot
+  -p"password"
 
-# DB import/export:
-$ 
+# DB Import: Create a dir, add db dumps, uncomment a line
+# in compose file
+
+# DB export:
+$ docker-compose exec mariadb sh -c 'exec mysqldump -uroot
+  -p"password" my-db' > my-db.sql
 
 # Share environment publicly:
 $ 
@@ -74,6 +84,11 @@ $
 
 
 ### Debugging
+
+1. Set ```PHP_XDEBUG: 1``` and ```PHP_XDEBUG_DEFAULT_ENABLE: 1``` in compose file
+1. A couple of additional networking steps for macOS and Win
+1. Configure your IDE to use Xdebug
+1. Start debugging session
 
 
 ### Pros/Cons
