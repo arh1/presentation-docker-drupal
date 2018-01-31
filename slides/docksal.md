@@ -51,9 +51,5 @@ $
 $ 
 </code></pre>
 
-
-### Pros/Cons
-
 ~Notes:
-
 * 

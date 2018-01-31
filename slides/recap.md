@@ -26,6 +26,12 @@
 * ```lando``` command rocks
 * no compose file
 
+~Notes:
+* lando cli will save you a lot of searching and typing
+* lando services dynamically create Docker compose object
+* .lando.yml rather than docker-compose.yml (by default)
+* can't run docker-compose commands
+
 
 ### Comparing Toolsets: Docksal
 

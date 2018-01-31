@@ -75,12 +75,3 @@ $ lando share
 
 ~Notes:
 * With build step, 'lando start' will initialize/update entire app
-
-
-### Pros/Cons
-
-~Notes:
-* lando cli will save you a lot of searching and typing
-* lando services dynamically create Docker compose object
-* .lando.yml rather than docker-compose.yml (by default)
-* can't run docker-compose commands
