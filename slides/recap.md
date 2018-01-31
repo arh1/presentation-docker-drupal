@@ -11,6 +11,28 @@
 * 
 
 
+### Comparing Toolsets: Docker4Drupal
+
+* Wired for Wodby
+* Good for learning Docker
+* Comfortable for non-Drupal devs
+* Starting point for customization
+* A little more setup work
+* A little more local workflow friction
+
+
+### Comparing Toolsets: Lando
+
+* ```lando``` command rocks
+* no compose file
+
+
+### Comparing Toolsets: Docksal
+
+* ```fin``` command rocks
+
+
+
 ### Discussion
 
 
