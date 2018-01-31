@@ -82,14 +82,6 @@ $
 </code></pre>
 
 
-### Debugging
-
-1. Compose file: set ```PHP_XDEBUG: 1``` and ```PHP_XDEBUG_DEFAULT_ENABLE: 1```
-1. A couple of additional networking steps for macOS and Win
-1. Configure your IDE to use Xdebug
-1. Start debugging session
-
-
 ### Extras
 
 * Deploy to Wodby!

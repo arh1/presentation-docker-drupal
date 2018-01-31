@@ -5,7 +5,7 @@
 
 ### What is Docker
 
-* Docker !== containers
+* containers !== Docker
 * Docker is a company, and open source toolset
 * Docker CE (dev tools) vs Docker EE (enterprise prod infrastructure)
 * Docker isn't 5 yet

@@ -52,9 +52,6 @@ $
 </code></pre>
 
 
-### Debugging
-
-
 ### Pros/Cons
 
 ~Notes:

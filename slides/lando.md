@@ -66,13 +66,6 @@ $ lando share
 </code></pre>
 
 
-### Debugging
-
-1. Set ```xdebug: true``` for php service in .lando.yml
-1. Configure your IDE to use Xdebug
-1. Start debugging session
-
-
 ### Extras
 
 * Add build step in .lando.yml, run during ```lando start```
