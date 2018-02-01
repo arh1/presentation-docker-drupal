@@ -6,42 +6,49 @@
 ### What is Docker
 
 * containers !== Docker
-* Docker is a company, and open source toolset
-* Docker CE (dev tools) vs Docker EE (enterprise prod infrastructure)
-* Docker isn't 5 yet
-* docker.com <- Drupal
+* Docker: company & open source tools
+* Community Edition vs Enterprise Edition
+* < 5
 
 ~Notes:
-* 
+* CE: dev tools
+* EE: enterprise prod infr
+* docker.com <- Drupal
 
 
 ### Terminology & Concepts
 
-* Dockerfile: commands to create a container
-* Docker Image:
-* Docker Compose: 
-* Docker Engine: 
-* Docker registry: 
-* Orchestration: 
-* Docker CLI: 
-* Docker Machine: 
+* Dockerfile
+* Image / Container
+* Service & Microservices
+* Docker Compose
+* Docker registry
 * Volumes
 
 ~Notes:
-* Microservices architecture
+* Dockerfile: Commands to create container
+* Image: "blueprint" for container
+* Service: ind pieces of app exposed to rest of app via well-defined api
+* Service: web server; db server
+* Micro arch: app that's a collection of loosely-coupled small services
+* Registry: formal, versioned storage of images
+* Compose: tool for managing multi-container apps
+* Volumes: persist data outside containers (down vs stop)
 
 
 ### Installing Docker
 
-* Mac, Windows, many Linux distros
-* Windows requires Win 10 Professional
-* Docker for Mac/Win installs a very small VM
-* MacOS/Win file system performance issues
+* Docker for Mac
+* Docker for Windows
+* Require recent OS versions
+* Mac/Win filesystem performance issues
+* Many Linux distros
 
 ~Notes:
-* Install includes: Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic
+* Install includes bundle of tools: Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic
+* Older Mac/Win installs required a VM (Win 10 Pro)
 * Mac/Win fs issues being improved currently + workarounds
-* Docker sync mitigates for MacOS
+* Docker sync mitigates for macOS
 
 
 ### Working with Apps in Docker
@@ -64,6 +71,7 @@ $ docker-compose down
 </code></pre>
 
 ~Notes:
-* docker for lower-level commands; interact with images, build an app
-* Docker compose to work with multi-container apps
-* 'docker-compose up' will pull images if you don't have them yet
+* `docker` for lower-level commands; interact with images, build an app
+* `docker-compose` to work with app across containers
+* `docker-compose up` will pull images if you don't have them yet
+* pulling images is the only slow step (but much smaller than VMs)
