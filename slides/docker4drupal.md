@@ -84,10 +84,11 @@ $ docker-compose exec mariadb sh -c 'exec mysqldump -uroot
 # 
 </code></pre>
 
+~Notes:
+* Demo: `docker-compose up -d`
+
 
 ### Extras
 
 * Deploy to Wodby!
-
-~Notes:
-* 
+* Lots of Drupal-focused images

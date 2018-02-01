@@ -18,8 +18,7 @@
 * Mononlithic
 * Lots of disk, memory
 * Maintenance is hard
-* Big files and slow to provision
-* Hard to share
+* Big files, slow to provision
 
 
 ### Containers: Why
