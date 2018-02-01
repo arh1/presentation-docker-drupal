@@ -2,7 +2,9 @@
 
 ![Wodby](slides/img/logo-wodby.png)
 
-~Notes:
+
+### Overview
+
 * Docker-based application hosting + infrastructure management service
 * You provide server (e.g. AWS acct) and repo
 * Wodby handles management + deployment via dashboard
@@ -77,8 +79,8 @@ $ docker-compose exec mariadb /usr/bin/mysql -uroot
 $ docker-compose exec mariadb sh -c 'exec mysqldump -uroot
   -p"password" my-db' > my-db.sql
 
-# Share environment publicly:
-$ 
+# Add/change a service:
+# 
 </code></pre>
 
 
