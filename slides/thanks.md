@@ -1,4 +1,4 @@
-## Thanks
+## Discussion
 
 [github.com/arh1/presentation-docker-drupal](https://github.com/arh1/presentation-docker-drupal)
 
@@ -7,7 +7,4 @@
 [@andyhieb](http://twitter.com/andyhieb)
 
 ![Slalom](slides/img/slalom-logo-white-W.png)
-
-~Notes:
-
-* 
+![Drupal on Docker](slides/img/docker-drupal.png)
