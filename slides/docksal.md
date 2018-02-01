@@ -90,8 +90,12 @@ $ fin db dump my-db-dump.sql
 
 * Add build steps in `fin init` (bash)
 * Addons: custom fin commands (bash)
-* Share environment publicly: `fin share`
+* Powerful CI integrations
+* Override PHP/MySQL config in .docksal/etc
+* Fin app aliases
+* `fin share`
 
 
 ~Notes:
-* 
+* CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
+* Aliases: `fin @myapp stop` from outside app dir

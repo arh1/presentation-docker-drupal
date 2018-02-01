@@ -79,12 +79,12 @@ $ lando db-export
 
 ### Extras
 
-* Build steps run during ```lando start```
+* Build steps run during `lando start`
 * Events framework
 * Pre-run scripts
 * Tooling: custom lando commands (yaml)
-* Powerful CI integration/docs
-* ```lando share```
+* Powerful CI integrations/docs
+* `lando share`
 * Advanced plugin system & API
 
 ~Notes:
