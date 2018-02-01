@@ -25,10 +25,12 @@
 ### Comparing: Lando
 
 * Supports a wide range of apps
+* Tight integration with Pantheon
 * ```lando``` command rocks
 * Nice integration with app management & CI tools
 * Docker concepts abstracted
 * Less mature than Docksal
+* Very extensible
 
 
 ### Comparing: Docksal

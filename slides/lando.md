@@ -79,13 +79,17 @@ $ lando db-export
 
 ### Extras
 
-* Add build step in .lando.yml, run during ```lando start```
-* Events framework (e.g. post-db-import cr)
-* Nice integration with Composer, phpunit, phpcs 
-* Nice integratio docs w/ CI tools
+* Build steps run during ```lando start```
+* Events framework
+* Pre-run scripts
 * Tooling: custom lando commands (yaml)
-* Share environment publicly with ```lando share```
-* Advanced plugin system and API for extending
+* Powerful CI integration/docs
+* ```lando share```
+* Advanced plugin system & API
 
 ~Notes:
-* With build step, 'lando start' will initialize/update entire app
+* Build step: e.g. run `composer install` on every app start/restart
+* Events: e.g. run `drush cr` after post-db-import event
+* Pre-run: execute bash scripts in /scripts before booting each container
+* Tooling: define `lando mycommand` for tools inside containers
+* CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
