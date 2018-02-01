@@ -3,7 +3,10 @@
 ## Tandem
 
 ~Notes:
-* Very powerful command line: lando
+* Local dev env toolset by Tandem
+* Next gen Kalabox
+* Very powerful command line tool: lando
+* Supports: D6-8, Backdrop, WP, MEAN, ...
 
 
 ### Install
@@ -15,12 +18,14 @@
 ### App Setup
 
 1. Create your Drupal codebase
-1. Initialize your project with ```lando init``` or manually
-1. Select a recipe during init
+1. Create .lando.yml file or initialize with ```lando init```
+1. Optional: Select a recipe via ```lando init --recipe drupal8```
 1. <pre><code class="bash" data-trim data-noescape>lando start</code></pre>
-1. Site available at http://yourproject.lndo.site/
+1. Site available at http://myproject.lndo.site/
 
 ~Notes:
+* .lando.yml is all that's required
+* Create codebase, or `init` with Pantheon or Github method
 * Lando 'recipe' is a Docker stack
 
 
@@ -61,8 +66,8 @@ $ lando mysql
 # DB import/export:
 $ lando db-import my-db-dump.sql
 
-# Share environment publicly:
-$ lando share
+# Add/change a service:
+#
 </code></pre>
 
 
@@ -71,7 +76,10 @@ $ lando share
 * Add build step in .lando.yml, run during ```lando start```
 * Nice integration with Composer, phpunit, phpcs 
 * Nice integratio docs w/ CI tools
-* Tooling: custom lando commands
+* Tooling: custom lando commands (yaml)
+* Share environment publicly with ```lando share```
+
+* Advanced plugin system and API for extending
 
 ~Notes:
 * With build step, 'lando start' will initialize/update entire app

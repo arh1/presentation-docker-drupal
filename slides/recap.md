@@ -15,7 +15,7 @@
 
 * Wired for Wodby
 * Good for learning Docker
-* Comfortable for non-Drupal devs
+* Familiar for non-Drupal devs
 * Starting point for customization
 * A little more setup work
 * A little more local workflow friction
@@ -24,7 +24,8 @@
 ### Comparing Toolsets: Lando
 
 * ```lando``` command rocks
-* no compose file
+* Nice integration with app management & CI tools
+* No compose file
 
 ~Notes:
 * lando cli will save you a lot of searching and typing
@@ -36,7 +37,11 @@
 ### Comparing Toolsets: Docksal
 
 * ```fin``` command rocks
-
+* Requires VirtualBox
+* Slower startup with VM
+* Slightly better filesystem performance (anecdotal) on macOS, Win
+* Nice integration with app management & CI tools
+* No compose file
 
 
 ### Discussion
