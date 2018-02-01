@@ -8,9 +8,6 @@
 * Docker is ready now for your local Drupal dev!
 * Real benefits in onboarding, speed, portability
 
-~Notes:
-* 
-
 
 ### Comparing: Docker4Drupal
 
@@ -24,21 +21,22 @@
 
 ### Comparing: Lando
 
-* Supports a wide range of apps
-* Tight integration with Pantheon
-* ```lando``` command rocks
-* Nice integration with app management & CI tools
 * Docker concepts abstracted
 * Less mature than Docksal
-* Very extensible
+* Supports a wide range of apps
+* `lando` rocks
+* Incredibly extensible
+* Powerful CI integrations
+* Tight integration with Pantheon
 
 
 ### Comparing: Docksal
 
-* Tailored for Drupal and WP
-* ```fin``` command rocks
-* Currently equires VirtualBox
-* Slower startup with VM
-* Slightly better filesystem performance? on macOS, Win
-* Nice integration with app management & CI tools
 * Docker concepts abstracted
+* Tailored for Drupal and WP
+* `fin` rocks
+* Currently requires VirtualBox
+* Slower startup with VM
+* Slightly faster? on macOS, Win
+* Powerful CI integrations
+* Tight integration with Acquia

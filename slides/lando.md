@@ -9,6 +9,7 @@
 * Next gen Kalabox
 * Still in beta
 * Very powerful command line tool: lando
+* Very extensible
 * Supports: D6-8, Backdrop, WP, MEAN, ...
 
 
@@ -79,7 +80,8 @@ $ lando db-export
 
 ### Extras
 
-* Build steps run during `lando start`
+* Pre-built recipes & services
+* Build steps
 * Events framework
 * Pre-run scripts
 * Tooling: custom lando commands (yaml)
