@@ -23,9 +23,11 @@
 
 ### Comparing Toolsets: Lando
 
+* Supports a wide range of apps
 * ```lando``` command rocks
 * Nice integration with app management & CI tools
-* No compose file
+
+* Dynamic compose file
 
 ~Notes:
 * lando cli will save you a lot of searching and typing
@@ -36,12 +38,13 @@
 
 ### Comparing Toolsets: Docksal
 
+* Tailored for Drupal and WP
 * ```fin``` command rocks
 * Requires VirtualBox
 * Slower startup with VM
 * Slightly better filesystem performance (anecdotal) on macOS, Win
 * Nice integration with app management & CI tools
-* No compose file
+* Dynamic compose file
 
 
 ### Discussion

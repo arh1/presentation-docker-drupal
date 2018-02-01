@@ -40,7 +40,7 @@ $ lando start
 # Execute command in container:
 # Use a more specific lando command, or SSH in
 
-# SSH into 'appserver' container:
+# Drop into shell in 'appserver' container:
 $ lando ssh appserver
 
 # Logs from 'appserver' container:
@@ -67,10 +67,15 @@ $ lando mysql
 
 # DB import/export:
 $ lando db-import my-db-dump.sql
+$ lando db-export
 
 # Add/change a service:
 #
 </code></pre>
+
+~Notes:
+* Demo `lando start`
+* Demo `lando help`
 
 
 ### Extras

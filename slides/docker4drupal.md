@@ -40,9 +40,9 @@
 $ docker-compose up -d
 
 # Execute command in 'php' container:
-$ docker-compose exec --user 82 php ls
+$ docker-compose exec --user 82 php pwd
 
-# Execute shell in ("SSH into") 'php' container:
+# Drop into shell in 'php' container:
 $ docker-compose exec --user 82 php /bin/bash
 
 # Logs from 'php' container:

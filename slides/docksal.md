@@ -47,37 +47,40 @@
 # Start (VM and containers:
 $ fin start
 
-# Execute command in container:
-$ 
+# Execute command in 'cli' container:
+$ fin exec pwd
 
-# SSH into 'appserver' container:
-$ 
+# Drop into shell in 'cli' container:
+$ fin bash cli
 
 # Logs:
-$ 
+$ fin logs cli
 
 # Stop:
-$ 
+$ fin stop
 </code></pre>
 
 
 ### Working with Apps
 
  <pre><code class="bash" data-trim data-noescape>
-# Drush:
-$ 
+# Drush, Console, Composer:
+$ fin drush status
+$ fin drupal list
+$ fin exec composer list
 
-# Console:
-$ 
+# Execute PHP:
+$ fin exec php -r 'echo "foo\n";'
 
-# Composer:
-$ 
+# MySQL shell:
+$ fin db cli
 
 # DB import/export:
-$ 
+$ fin db import my-db-dump.sql
+$ fin db dump my-db-dump.sql
 
 # Add/change a service:
-#
+# Add/change image value in docksal.yml
 </code></pre>
 
 ~Notes:
