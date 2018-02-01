@@ -36,8 +36,9 @@
 ### Working with Apps
 
  <pre><code class="bash" data-trim data-noescape>
-# Start:
+# Start/stop:
 $ docker-compose up -d
+$ docker-compose stop
 
 # Execute command in 'php' container:
 $ docker-compose exec --user 82 php pwd
@@ -48,8 +49,8 @@ $ docker-compose exec --user 82 php /bin/bash
 # Logs from 'php' container:
 $ docker-compose logs php
 
-# Stop:
-$ docker-compose stop
+# Add/change a service:
+# Uncomment/add entry to 'services' key in docker-compose.yml
 </code></pre>
 
 ~Notes:

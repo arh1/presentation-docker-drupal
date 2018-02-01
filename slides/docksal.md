@@ -44,8 +44,9 @@
 ### Working with Apps
 
  <pre><code class="bash" data-trim data-noescape>
-# Start (VM and containers:
+# Start (VM and containers):
 $ fin start
+$ fin stop
 
 # Execute command in 'cli' container:
 $ fin exec pwd
@@ -56,8 +57,8 @@ $ fin bash cli
 # Logs:
 $ fin logs cli
 
-# Stop:
-$ fin stop
+# Add/change a service:
+# Add entry to 'services' key in .docksal/docksal.yml
 </code></pre>
 
 
@@ -78,9 +79,6 @@ $ fin db cli
 # DB import/export:
 $ fin db import my-db-dump.sql
 $ fin db dump my-db-dump.sql
-
-# Add/change a service:
-# Add/change image value in docksal.yml
 </code></pre>
 
 ~Notes:

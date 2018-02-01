@@ -49,7 +49,7 @@ $ lando ssh appserver
 $ lando logs appserver
 
 # Add/change a service:
-#
+# Add entry to 'services' key in .lando.yml
 </code></pre>
 
 
