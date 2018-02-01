@@ -31,6 +31,7 @@
 * Service: ind pieces of app exposed to rest of app via well-defined api
 * Service: web server; db server
 * Micro arch: app that's a collection of loosely-coupled small services
+* Docker handles networking, ports b/w containers
 * Registry: formal, versioned storage of images
 * Compose: tool for managing multi-container apps
 * Volumes: persist data outside containers (down vs stop)
