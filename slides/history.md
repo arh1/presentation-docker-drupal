@@ -11,10 +11,6 @@
 * Can't share with other devs
 * "Works for me"
 
-~Notes:
-
-* 
-
 
 ### Virtualization
 
@@ -24,10 +20,6 @@
 * Maintenance is hard
 * Big files and slow to provision
 * Hard to share
-
-~Notes:
-
-* 
 
 
 ### Containers: Why
@@ -41,7 +33,7 @@
 
 ### Containers: What
 
-```A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.```
+`A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.`
 
 
 ### Containers: What
@@ -55,7 +47,3 @@
 
 ![VM architecture](slides/img/docker.com-VM@2x.png)
 ![container architecture](slides/img/docker.com-Container@2x.png)
-
-~Notes:
-
-* 

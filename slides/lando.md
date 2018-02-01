@@ -22,8 +22,8 @@
 ### App Setup
 
 1. Create your Drupal codebase
-1. Create .lando.yml file or initialize with ```lando init```
-1. Optional: Select a recipe via ```lando init --recipe drupal8```
+1. Create .lando.yml file or initialize with `lando init`
+1. Optional: Select a recipe via `lando init --recipe drupal8`
 1. <pre><code class="bash" data-trim data-noescape>lando start</code></pre>
 1. Site available at http://myproject.lndo.site/
 
