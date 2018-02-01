@@ -5,7 +5,7 @@
 
 ### Overview
 
-* Images for web server, php, cli
+* Images for web server, php, db
 * But also... Solr, Varnish, Memcache/Redis, logging, mail-handling, etc 
 * To date, primarily for local Drupal dev
 * Note recommendations from hosts

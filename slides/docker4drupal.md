@@ -72,7 +72,7 @@ $ docker-compose exec --user 82 php php -r 'echo "foo\n";'
 $ docker-compose exec mariadb /usr/bin/mysql -uroot
   -p"password"
 
-# DB Import: Create a dir, add db dumps, uncomment a line
+# DB Import: Add my-db-dump.sql to a specific dir, uncomment a line
 # in compose file
 
 # DB export:

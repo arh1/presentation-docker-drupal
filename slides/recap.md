@@ -6,12 +6,13 @@
 ### Recap
 
 * Docker is ready now for your local Drupal dev!
+* Real benefits in onboarding, speed, portability
 
 ~Notes:
 * 
 
 
-### Comparing Toolsets: Docker4Drupal
+### Comparing: Docker4Drupal
 
 * Wired for Wodby
 * Good for learning Docker
@@ -21,7 +22,7 @@
 * A little more local workflow friction
 
 
-### Comparing Toolsets: Lando
+### Comparing: Lando
 
 * Supports a wide range of apps
 * ```lando``` command rocks
@@ -36,7 +37,7 @@
 * can't run docker-compose commands
 
 
-### Comparing Toolsets: Docksal
+### Comparing: Docksal
 
 * Tailored for Drupal and WP
 * ```fin``` command rocks

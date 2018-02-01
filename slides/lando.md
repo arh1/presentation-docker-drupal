@@ -7,6 +7,7 @@
 
 * Local dev env toolset by Tandem
 * Next gen Kalabox
+* Still in beta
 * Very powerful command line tool: lando
 * Supports: D6-8, Backdrop, WP, MEAN, ...
 
@@ -34,8 +35,9 @@
 ### Working with Apps
 
  <pre><code class="bash" data-trim data-noescape>
-# Start:
+# Start/stop:
 $ lando start
+$ lando stop
 
 # Execute command in container:
 # Use a more specific lando command, or SSH in
@@ -46,8 +48,8 @@ $ lando ssh appserver
 # Logs from 'appserver' container:
 $ lando logs appserver
 
-# Stop:
-$ lando poweroff
+# Add/change a service:
+#
 </code></pre>
 
 
@@ -68,9 +70,6 @@ $ lando mysql
 # DB import/export:
 $ lando db-import my-db-dump.sql
 $ lando db-export
-
-# Add/change a service:
-#
 </code></pre>
 
 ~Notes:
@@ -81,11 +80,11 @@ $ lando db-export
 ### Extras
 
 * Add build step in .lando.yml, run during ```lando start```
+* Events framework (e.g. post-db-import cr)
 * Nice integration with Composer, phpunit, phpcs 
 * Nice integratio docs w/ CI tools
 * Tooling: custom lando commands (yaml)
 * Share environment publicly with ```lando share```
-
 * Advanced plugin system and API for extending
 
 ~Notes:
