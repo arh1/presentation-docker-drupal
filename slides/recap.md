@@ -27,25 +27,19 @@
 * Supports a wide range of apps
 * ```lando``` command rocks
 * Nice integration with app management & CI tools
-
-* Dynamic compose file
-
-~Notes:
-* lando cli will save you a lot of searching and typing
-* lando services dynamically create Docker compose object
-* .lando.yml rather than docker-compose.yml (by default)
-* can't run docker-compose commands
+* Docker concepts abstracted
+* Less mature than Docksal
 
 
 ### Comparing: Docksal
 
 * Tailored for Drupal and WP
 * ```fin``` command rocks
-* Requires VirtualBox
+* Currently equires VirtualBox
 * Slower startup with VM
-* Slightly better filesystem performance (anecdotal) on macOS, Win
+* Slightly better filesystem performance? on macOS, Win
 * Nice integration with app management & CI tools
-* Dynamic compose file
+* Docker concepts abstracted
 
 
 ### Discussion
