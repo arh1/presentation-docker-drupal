@@ -1,17 +1,18 @@
 ![Docksal](slides/img/logo-docksal.png)
 
-## FFW
-
 
 ### Overview
 
-* Formerly Drude (DDE)
-* Local dev env toolset by FFW
-* Very powerful command line tool: fin
-* (For now) uses a thin VirtualBox VM across all projects
+* By FFW
+* `fin`
+* Docker abstractions
+* Uses a VM across all projects
 * Focused on Drupal & WP
 
 ~Notes:
+* Formerly Drude (DDE)
+* Docker config in .docksal: none to simple to complex
+* Virtualbox VM
 * VM mitigates filesystem performance issues (Mac)
 * And networking issues (Win)
 * VM runs boot2docker tiny distro
@@ -40,6 +41,7 @@
 ~Notes:
 * Just .docksal dir for default stack
 * Specify stack in docksal.env
+* Generate docksal.yml -- Compose file -- to customize
 * `fin config generate` creates compose file docksal.yml
 
 
@@ -83,18 +85,12 @@ $ fin db import my-db-dump.sql
 $ fin db dump my-db-dump.sql
 </code></pre>
 
-~Notes:
-* @todo: generate docksal.yml
-* Demo show docksal.yml
-* Demo `fin start`
-* Demo `fin help`
-
 
 ### Extras
 
 * Add build steps in `fin init` (bash)
 * Addons: custom fin commands (bash)
-* Powerful CI integrations
+* Powerful CI service integrations
 * Override PHP/MySQL config in .docksal/etc
 * Fin app aliases
 * `fin share`
@@ -102,3 +98,13 @@ $ fin db dump my-db-dump.sql
 ~Notes:
 * CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
 * Aliases: `fin @myapp stop` from outside app dir
+
+
+### To the Terminal
+
+~Notes:
+* Demo `fin start`
+* Demo `fin ps`
+* Demo `fin help`
+* Demo: show docksal.yml
+* Demo: `fin config show` (compiled config)
