@@ -12,7 +12,7 @@
 ~Notes:
 * Formerly Drude (DDE)
 * Docker config in .docksal: none to simple to complex
-* Virtualbox VM
+* Virtualbox VM (to be deprecated)
 * VM mitigates filesystem performance issues (Mac)
 * And networking issues (Win)
 * VM runs boot2docker tiny distro

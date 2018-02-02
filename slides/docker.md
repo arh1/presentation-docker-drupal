@@ -20,24 +20,24 @@
 ### Terminology & Concepts
 
 * Image / Container
+* Docker registry
 * Service & Microservices
 * Docker Compose
 * Stack
-* Docker registry
 * Volumes
 
 ~Notes:
 * Image: "blueprint" for container
+* Registry: formal, versioned storage of images
 * Service: ind pieces of app exposed to rest of app via well-defined api
-* Service: web server; db server
 * Micro arch: app that's a collection of loosely-coupled small services
+* Compose: tool for managing multi-container apps
 * Docker handles communication b/w containers
 * Stack: group of services that work together
 * `A stack is a group of interrelated services that share dependencies, and can be orchestrated and scaled together.`
-* Registry: formal, versioned storage of images
-* Compose: tool for managing multi-container apps
 * Volumes: persist data outside containers (down vs stop)
 * @todo: clean up these notes
+
 
 ### Installing Docker
 

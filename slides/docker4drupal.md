@@ -11,7 +11,6 @@
 * Stacks for deploying to prod
 
 ~Notes:
-* Docker-based app mgmt + infrastructure service
 * You provide server (e.g. AWS acct) and repo
 * Wodby handles management + deployment via dashboard
 * Local dev options are bare bones Docker/Drupal approach by Wodby
@@ -65,8 +64,7 @@ $ docker-compose logs php
 
  <pre><code class="bash" data-trim data-noescape>
 # Drush, Console, Composer:
-$ docker-compose exec --user 82 php drush status -r
-  /var/www/html/web
+$ docker-compose exec --user 82 php drush status -r /var/www/html/web
 $ docker-compose exec --user 82 php drupal list
 $ docker-compose exec --user 82 php composer list
 
@@ -74,18 +72,12 @@ $ docker-compose exec --user 82 php composer list
 $ docker-compose exec --user 82 php php -r 'echo "foo\n";'
 
 # MySQL shell:
-$ docker-compose exec mariadb /usr/bin/mysql -uroot
-  -p"password"
+$ docker-compose exec mariadb /usr/bin/mysql -uroot -p"password"
 
-# DB Import: Add my-db-dump.sql to a specific dir, uncomment a line
-# in compose file
-
-# DB export:
+# DB import/export:
+# Import: Add my-db-dump.sql before bringing up container
 $ docker-compose exec mariadb sh -c 'exec mysqldump -uroot
   -p"password" my-db' > my-db.sql
-
-# Add/change a service:
-# 
 </code></pre>
 
 

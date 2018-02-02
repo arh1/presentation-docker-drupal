@@ -21,15 +21,6 @@
 * Big files, slow to provision
 
 
-### Containers: Why
-
-* Fast
-* Easier to maintain
-* Easy to share
-* Easy to duplicate across environments
-* Flexibility & modularity
-
-
 ### Containers: What
 
 `Linux containers are self-contained execution environments... that share the kernel of the host operating system.`
@@ -46,8 +37,21 @@
 * Each container runs as its own process on the host
 * Microservices
 
+~Notes:
+* Facilitate micro arch (describe more in a min)
+
 
 ### Containers: How
 
 ![VM architecture](slides/img/docker.com-VM@2x.png)
 ![container architecture](slides/img/docker.com-Container@2x.png)
+
+
+### Containers: Why
+
+* Small, fast
+* Flexible & modular
+* Easier to maintain
+* Easy to share
+* Portable across environments
+* Scales
