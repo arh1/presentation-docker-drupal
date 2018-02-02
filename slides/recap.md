@@ -19,17 +19,6 @@
 * A little more local workflow friction
 
 
-### Comparing: Lando
-
-* Docker concepts abstracted
-* Less mature than Docksal
-* Supports a wide range of apps
-* `lando` rocks
-* Incredibly extensible
-* Powerful CI service integrations
-* Tight integration with Pantheon
-
-
 ### Comparing: Docksal
 
 * Docker concepts abstracted
@@ -40,3 +29,14 @@
 * Slightly faster? on macOS, Win
 * Powerful CI integrations
 * Acquia "zero-configuration" stack
+
+
+### Comparing: Lando
+
+* Docker concepts abstracted
+* Less mature than Docksal
+* Supports a wide range of apps
+* `lando` rocks
+* Incredibly extensible
+* Powerful CI service integrations
+* Tight integration with Pantheon

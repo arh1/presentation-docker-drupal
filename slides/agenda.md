@@ -4,8 +4,8 @@
 * Docker Intro
 * Drupal & Docker
 * Docker4Drupal
-* Lando
 * Docksal
+* Lando
 * Recap & Discussion
 
 ~Notes:
