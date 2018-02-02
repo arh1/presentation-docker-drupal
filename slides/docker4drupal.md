@@ -5,15 +5,18 @@
 
 ### Overview
 
-* Docker-based application hosting + infrastructure management service
+* Docker-based app management
+* D4D is "backported" local dev option
+* Straight up Docker
+* Stacks for deploying to prod
+
+~Notes:
+* Docker-based app mgmt + infrastructure service
 * You provide server (e.g. AWS acct) and repo
 * Wodby handles management + deployment via dashboard
 * Local dev options are bare bones Docker/Drupal approach by Wodby
 * Essentially a nice compose file that's tuned for Drupal
-* "Stacks" for deploying to prod
 
-~Notes:
-* @todo: less words
 
 ### Install
 
@@ -31,9 +34,7 @@
 1. Site up at http://drupal.docker.localhost:8000
 
 ~Notes:
-* Default d4d image has PHP+Drupal
-* Show docker-compose.yml
-* @todo: list default images
+* Services: nginx, php, mariadb (+ mailhog, portainer, traefik)
 
 
 ### Working with Apps
@@ -57,7 +58,6 @@ $ docker-compose logs php
 </code></pre>
 
 ~Notes:
-* @todo: when do we see a compose file? (we reference edits here)
 * 82 is default uid/gid for www-data user on Alpine Linux (otherwise root)
 
 
@@ -87,9 +87,6 @@ $ docker-compose exec mariadb sh -c 'exec mysqldump -uroot
 # Add/change a service:
 # 
 </code></pre>
-
-~Notes:
-* @todo: couldn't we import db using /usr/bin/mysql?
 
 
 ### Extras
