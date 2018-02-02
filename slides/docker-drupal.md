@@ -16,19 +16,6 @@
 * Pantheon has been pioneering Drupal container-based infr since before Docker
 
 
-### Debugging
-
-1. Enable Xdebug for PHP in compose file
-1. Configure your IDE to use Xdebug
-1. Start debugging session
-
-~Notes:
-* @todo: remove?
-* Generally the same across toolsets
-* Toolset handles ports and networking
-* Might be add'l networking steps for macOS and Win
-
-
 ### Drupal Docker Options
 
 * Docker4Drupal, Lando, Docksal
