@@ -12,7 +12,8 @@
 
 ~Notes:
 * e.g. Platform.sh recently recommended Lando
-* @todo: containers in heavy use by prod hosts, just not Docker, right?
+* Major Drupal hosts use containers, but not Docker (afaik)
+* Pantheon has been pioneering Drupal container-based infr since before Docker
 
 
 ### Debugging
@@ -39,6 +40,6 @@
 * Custom Docker compose
 
 ~Notes:
-* @todo: what is DDI?
+* DDI: images & docs on Drupal/Docker best practices
 * Range from completely custom to drop in place
 * Some discussion about consolidating efforts

@@ -32,10 +32,12 @@
 
 ### Containers: What
 
-`A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.`
+`Linux containers are self-contained execution environments... that share the kernel of the host operating system.`
+--Infoworld
 
 ~Notes:
-* @todo: better definition?
+* `The result is something that feels like a virtual machine, but sheds all the weight and startup overhead of a guest operating system.`
+* `Containers decouple applications from operating systems`
 
 
 ### Containers: What

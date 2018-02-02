@@ -11,7 +11,7 @@
 * < 5
 
 ~Notes:
-* @todo: containers vs Docker
+* Docker evolved from Linux Containers
 * CE: dev tools
 * EE: enterprise prod infr
 * docker.com <- Drupal
@@ -19,20 +19,21 @@
 
 ### Terminology & Concepts
 
-* Dockerfile
 * Image / Container
 * Service & Microservices
 * Docker Compose
+* Stack
 * Docker registry
 * Volumes
 
 ~Notes:
-* Dockerfile: Commands to create container
 * Image: "blueprint" for container
 * Service: ind pieces of app exposed to rest of app via well-defined api
 * Service: web server; db server
 * Micro arch: app that's a collection of loosely-coupled small services
-* Docker handles networking, ports b/w containers
+* Docker handles communication b/w containers
+* Stack: group of services that work together
+* `A stack is a group of interrelated services that share dependencies, and can be orchestrated and scaled together.`
 * Registry: formal, versioned storage of images
 * Compose: tool for managing multi-container apps
 * Volumes: persist data outside containers (down vs stop)
@@ -49,9 +50,8 @@
 ~Notes:
 * Install includes bundle of tools: Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic
 * Older Mac/Win installs required a VM (Win 10 Pro)
-* Mac/Win fs issues being improved currently + workarounds
+* Mac/Win fs issues being improved currently + workarounds (sync, caching)
 * @todo: these issues just relevant to volumes?
-* Docker sync mitigates for macOS
 
 
 ### Working with Apps in Docker
