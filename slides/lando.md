@@ -1,16 +1,20 @@
 ![Lando](slides/img/logo-lando.png)
 
-## Tandem
-
 
 ### Overview
 
-* Local dev env toolset by Tandem
-* Next gen Kalabox
+* By Tandem
 * Still in beta
-* Very powerful command line tool: lando
-* Very extensible
-* Supports: D6-8, Backdrop, WP, MEAN, ...
+* `lando`
+* Docker abstractions
+* Extensible
+* D6, D7, D8, Backdrop, WP, MEAN, .NET ...
+
+~Notes:
+* Next gen Kalabox
+* Beta, heavy development, upgrade warnings
+* Abstracts Docker concepts -- concise config
+* .lando.yml -- simple or very complex
 
 
 ### Install
@@ -30,9 +34,9 @@
 ~Notes:
 * .lando.yml is all that's required
 * Create codebase, or `init` with Pantheon or Github method
-* Lando 'recipe' is a Docker stack
-* @todo: define Docker stack earlier
-* @todo: list default images
+* Lando 'recipe' is a Docker stack plus Lando extensions
+* Default (and D8) stack: just appserver and db services
+* 'services' key in .lando.yml is abstraction of docker compose format
 
 
 ### Working with Apps
@@ -55,6 +59,9 @@ $ lando logs appserver
 # Add entry to 'services' key in .lando.yml
 </code></pre>
 
+~Notes:
+* Add to 'services' and run `lando rebuild`
+
 
 ### Working with Apps
 
@@ -76,9 +83,9 @@ $ lando db-export
 </code></pre>
 
 ~Notes:
-* @todo: generate .lando.yml
-* Demo show .lando.yml
+* Demo: show .lando.yml
 * Demo `lando start`
+* Demo `lando info`
 * Demo `lando help`
 
 
@@ -97,6 +104,6 @@ $ lando db-export
 * Build step: e.g. run `composer install` on every app start/restart
 * Events: e.g. run `drush cr` after post-db-import event
 * Pre-run: execute bash scripts in /scripts before booting each container
-* Tooling: define `lando mycommand` for tools inside containers
+* Tooling: alias `lando mycommand` for commands inside containers
 * CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
 * Share: uses localtunnel
