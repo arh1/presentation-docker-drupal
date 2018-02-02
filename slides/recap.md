@@ -26,7 +26,7 @@
 * Supports a wide range of apps
 * `lando` rocks
 * Incredibly extensible
-* Powerful CI integrations
+* Powerful CI service integrations
 * Tight integration with Pantheon
 
 
@@ -39,4 +39,4 @@
 * Slower startup with VM
 * Slightly faster? on macOS, Win
 * Powerful CI integrations
-* Tight integration with Acquia
+* Acquia "zero-configuration" stack

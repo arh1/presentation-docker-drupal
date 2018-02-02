@@ -34,12 +34,15 @@
 
 `A container image is a lightweight, stand-alone, executable package of a piece of software that includes everything needed to run it: code, runtime, system tools, system libraries, settings.`
 
+~Notes:
+* @todo: better definition?
+
 
 ### Containers: What
 
-* Like a VM, but all containers on a host share the same OS
+* Like VMs, but all containers share OS
 * Each container runs as its own process on the host
-* Facilitate microservices architecture
+* Microservices
 
 
 ### Containers: How

@@ -5,9 +5,11 @@
 
 ### Overview
 
-* Formerly Drude/DDE
+* Formerly Drude (DDE)
 * Local dev env toolset by FFW
-* (For now) uses a thin VirtualBox VM across all projects 
+* Very powerful command line tool: fin
+* (For now) uses a thin VirtualBox VM across all projects
+* Focused on Drupal & WP
 
 ~Notes:
 * VM mitigates filesystem performance issues (Mac)
@@ -82,6 +84,8 @@ $ fin db dump my-db-dump.sql
 </code></pre>
 
 ~Notes:
+* @todo: generate docksal.yml
+* Demo show docksal.yml
 * Demo `fin start`
 * Demo `fin help`
 
@@ -94,7 +98,6 @@ $ fin db dump my-db-dump.sql
 * Override PHP/MySQL config in .docksal/etc
 * Fin app aliases
 * `fin share`
-
 
 ~Notes:
 * CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis

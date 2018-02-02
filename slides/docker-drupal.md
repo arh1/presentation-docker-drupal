@@ -12,6 +12,7 @@
 
 ~Notes:
 * e.g. Platform.sh recently recommended Lando
+* @todo: containers in heavy use by prod hosts, just not Docker, right?
 
 
 ### Debugging
@@ -21,6 +22,7 @@
 1. Start debugging session
 
 ~Notes:
+* @todo: remove?
 * Generally the same across toolsets
 * Toolset handles ports and networking
 * Might be add'l networking steps for macOS and Win
@@ -37,5 +39,6 @@
 * Custom Docker compose
 
 ~Notes:
+* @todo: what is DDI?
 * Range from completely custom to drop in place
 * Some discussion about consolidating efforts

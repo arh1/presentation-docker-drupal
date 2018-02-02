@@ -12,6 +12,8 @@
 * Essentially a nice compose file that's tuned for Drupal
 * "Stacks" for deploying to prod
 
+~Notes:
+* @todo: less words
 
 ### Install
 
@@ -31,6 +33,7 @@
 ~Notes:
 * Default d4d image has PHP+Drupal
 * Show docker-compose.yml
+* @todo: list default images
 
 
 ### Working with Apps
@@ -54,6 +57,7 @@ $ docker-compose logs php
 </code></pre>
 
 ~Notes:
+* @todo: when do we see a compose file? (we reference edits here)
 * 82 is default uid/gid for www-data user on Alpine Linux (otherwise root)
 
 
@@ -86,6 +90,7 @@ $ docker-compose exec mariadb sh -c 'exec mysqldump -uroot
 
 ~Notes:
 * Demo: `docker-compose up -d`
+* @todo: couldn't we import db using /usr/bin/mysql?
 
 
 ### Extras

@@ -31,6 +31,8 @@
 * .lando.yml is all that's required
 * Create codebase, or `init` with Pantheon or Github method
 * Lando 'recipe' is a Docker stack
+* @todo: define Docker stack earlier
+* @todo: list default images
 
 
 ### Working with Apps
@@ -74,6 +76,8 @@ $ lando db-export
 </code></pre>
 
 ~Notes:
+* @todo: generate .lando.yml
+* Demo show .lando.yml
 * Demo `lando start`
 * Demo `lando help`
 
@@ -85,7 +89,7 @@ $ lando db-export
 * Events framework
 * Pre-run scripts
 * Tooling: custom lando commands (yaml)
-* Powerful CI integrations/docs
+* Powerful CI service integrations/docs
 * `lando share`
 * Advanced plugin system & API
 
@@ -95,3 +99,4 @@ $ lando db-export
 * Pre-run: execute bash scripts in /scripts before booting each container
 * Tooling: define `lando mycommand` for tools inside containers
 * CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
+* Share: uses localtunnel

@@ -11,6 +11,7 @@
 * < 5
 
 ~Notes:
+* @todo: containers vs Docker
 * CE: dev tools
 * EE: enterprise prod infr
 * docker.com <- Drupal
@@ -49,6 +50,7 @@
 * Install includes bundle of tools: Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic
 * Older Mac/Win installs required a VM (Win 10 Pro)
 * Mac/Win fs issues being improved currently + workarounds
+* @todo: these issues just relevant to volumes?
 * Docker sync mitigates for macOS
 
 
