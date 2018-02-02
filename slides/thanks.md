@@ -1,4 +1,4 @@
-## Discussion
+## Thanks!
 
 [github.com/arh1/presentation-docker-drupal](https://github.com/arh1/presentation-docker-drupal)
 
