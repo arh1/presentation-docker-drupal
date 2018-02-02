@@ -82,12 +82,6 @@ $ lando db-import my-db-dump.sql
 $ lando db-export
 </code></pre>
 
-~Notes:
-* Demo: show .lando.yml
-* Demo `lando start`
-* Demo `lando info`
-* Demo `lando help`
-
 
 ### Extras
 
@@ -107,3 +101,11 @@ $ lando db-export
 * Tooling: alias `lando mycommand` for commands inside containers
 * CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
 * Share: uses localtunnel
+
+### To the Terminal
+
+~Notes:
+* Demo: show .lando.yml
+* Demo `lando start`
+* Demo `lando info`
+* Demo `lando help`

@@ -103,7 +103,7 @@ $ fin db dump my-db-dump.sql
 ### To the Terminal
 
 ~Notes:
-* Demo `fin start`
+* Demo `fin start` (VM already running)
 * Demo `fin ps`
 * Demo `fin help`
 * Demo: show docksal.yml
