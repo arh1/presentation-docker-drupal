@@ -9,5 +9,4 @@
 * Recap & Discussion
 
 ~Notes:
-
-* 
+* Each toolset: review install/setup, common steps, extra features, demo

@@ -37,7 +37,7 @@
 * Registry: formal, versioned storage of images
 * Compose: tool for managing multi-container apps
 * Volumes: persist data outside containers (down vs stop)
-
+* @todo: clean up these notes
 
 ### Installing Docker
 

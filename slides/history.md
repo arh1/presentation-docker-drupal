@@ -5,7 +5,7 @@
 
 ### Bare Metal
 
-* Local servers, e.g. MAMP, WAMP, XAMPP, custom
+* Local servers, MAMP, WAMP, XAMPP, ...
 * Hard to manage multiple versions
 * Hard to synch with prod
 * Can't share with other devs
@@ -14,7 +14,7 @@
 
 ### Virtualization
 
-* Virtual machines, e.g. Drupal VM, Acquia Dev Desktop, custom
+* VMs: Drupal VM, Acquia Dev Desktop, custom
 * Mononlithic
 * Lots of disk, memory
 * Maintenance is hard
@@ -24,9 +24,9 @@
 ### Containers: Why
 
 * Fast
-* Easier to maintain than VMs
-* Easy to share with other devs
-* Easy to duplicate across locals, stage, prod
+* Easier to maintain
+* Easy to share
+* Easy to duplicate across environments
 * Flexibility & modularity
 
 
