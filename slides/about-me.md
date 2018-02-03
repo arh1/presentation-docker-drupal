@@ -11,5 +11,4 @@
 * Drupal veteran Docker novice
 * 5,000 person consulting firm
 * Seattle / Portland
-* Drupal practice new and growing
-* Hiring
+* Drupal practice growing

@@ -17,7 +17,7 @@
 * docker.com <- Drupal
 
 
-### Terminology & Concepts
+### Terminology
 
 * Image / Container
 * Docker registry
@@ -28,27 +28,23 @@
 
 ~Notes:
 * Image: "blueprint" for container
-* Registry: formal, versioned storage of images
+* Registry: versioned image storage
 * Service: ind pieces of app exposed to rest of app via well-defined api
 * Micro arch: app that's a collection of loosely-coupled small services
-* Compose: tool for managing multi-container apps
-* Docker handles communication b/w containers
+* Compose: tool to manage multi-cont apps
 * Stack: group of services that work together
 * `A stack is a group of interrelated services that share dependencies, and can be orchestrated and scaled together.`
 * Volumes: persist data outside containers (down vs stop)
-* @todo: clean up these notes
 
 
 ### Installing Docker
 
-* Docker for Mac
-* Docker for Windows
-* Require recent OS versions
+* Mac, Windows, Linux distros
+* Mac/Win require recent OS versions
 * Mac/Win filesystem performance issues
-* Many Linux distros
 
 ~Notes:
-* Install includes bundle of tools: Docker Engine, Docker CLI client, Docker Compose, Docker Machine, and Kitematic
+* Install includes bundle of Docker tools
 * Older Mac/Win installs required a VM (Win 10 Pro)
 * Mac/Win fs issues being improved currently + workarounds (sync, caching)
 * @todo: these issues just relevant to volumes?

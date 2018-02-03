@@ -5,8 +5,8 @@
 
 * By Tandem
 * Still in beta
-* `lando`
 * Docker abstractions
+* `lando`
 * Extensible
 * D6, D7, D8, Backdrop, WP, MEAN, .NET ...
 

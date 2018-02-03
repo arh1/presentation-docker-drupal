@@ -35,10 +35,6 @@
 
 * Like VMs, but all containers share OS
 * Each container runs as its own process on the host
-* Microservices
-
-~Notes:
-* Facilitate micro arch (describe more in a min)
 
 
 ### Containers: How
@@ -54,4 +50,4 @@
 * Easier to maintain
 * Easy to share
 * Portable across environments
-* Scales
+* Scale

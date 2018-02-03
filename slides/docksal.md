@@ -4,8 +4,8 @@
 ### Overview
 
 * By FFW
-* `fin`
 * Docker abstractions
+* `fin`
 * Uses a VM across all projects
 * Focused on Drupal & WP
 
@@ -26,6 +26,7 @@
 1. Run Docksal installer
 
 ~Notes:
+* `fin` requires Babun
 * Babun to be deprecated in favor of WSL
 
 
@@ -33,7 +34,7 @@
 
 1. Create your Drupal codebase
 1. Create .docksal dir
-1. Optional: specify non-default stack (e.g. Acquia)
+1. Optional: specify Acquia stack
 1. Optional: generate compose file for manual config
 1. <pre><code class="bash" data-trim data-noescape>fin start</code></pre>
 1. Site available at http://myproject.docksal/
@@ -101,6 +102,7 @@ $ fin db dump my-db-dump.sql
 * Services: solr, memcache, etc
 * PHP/MySQL config: .docksal/etc
 * Tools: e.g. Behat, phpcs, sass/compass
+* Custom fin: scripts in specific dir
 * Aliases: `fin @myapp stop` from outside app dir
 * Share: via ngrok
 
