@@ -26,17 +26,18 @@
 ### App Setup
 
 1. Create your Drupal codebase
-1. Create .lando.yml file or initialize with `lando init`
+1. `lando init` or create .lando.yml
 1. Optional: Select a recipe via `lando init --recipe drupal8`
+1. Optional: Specify your codebase repo via `lando init github`
 1. <pre><code class="bash" data-trim data-noescape>lando start</code></pre>
 1. Site available at http://myproject.lndo.site/
 
 ~Notes:
-* .lando.yml is all that's required
-* Create codebase, or `init` with Pantheon or Github method
-* Lando 'recipe' is a Docker stack plus Lando extensions
-* Default (and D8) stack: just appserver and db services
-* 'services' key in .lando.yml is abstraction of docker compose format
+* .lando.yml: abstracted compose file + landoisms
+* Create codebase or `lando init github|pantheon`
+* 'recipe': D Stack + Lando extensions
+* Services (default & D8): just appserver & db
+* .lando.yml 'services' key: abstraction of docker compose format
 
 
 ### Working with Apps
@@ -47,7 +48,7 @@ $ lando start
 $ lando stop
 
 # Execute command in container:
-# Use a more specific lando command, or SSH in
+$ lando ssh appserver -c "pwd"
 
 # Drop into shell in 'appserver' container:
 $ lando ssh appserver
@@ -60,7 +61,8 @@ $ lando logs appserver
 </code></pre>
 
 ~Notes:
-* Add to 'services' and run `lando rebuild`
+* no `lando exec`
+* Services: Add to 'services' key & `lando rebuild`
 
 
 ### Working with Apps
@@ -85,22 +87,23 @@ $ lando db-export
 
 ### Extras
 
-* Pre-built recipes & services
+* Drop-in additional services
+* Pre-made recipes
 * Build steps
 * Events framework
 * Pre-run scripts
-* Tooling: custom lando commands (yaml)
-* Powerful CI service integrations/docs
-* `lando share`
+* Tool integrations
+* Tooling: alias commands inside containers
 * Advanced plugin system & API
+* `lando share`
 
 ~Notes:
-* Build step: e.g. run `composer install` on every app start/restart
-* Events: e.g. run `drush cr` after post-db-import event
-* Pre-run: execute bash scripts in /scripts before booting each container
-* Tooling: alias `lando mycommand` for commands inside containers
-* CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
-* Share: uses localtunnel
+* Build step: e.g. `composer install` on app re/start
+* Events: e.g. `drush cr` after post-db-import event
+* Pre-run: /scripts before booting each container
+* Tooling: alias `lando mycommand`
+* Tools: e.g. phpcs, phpunit, Behat, Travis
+* Share: localtunnel
 
 
 ### To the Terminal
@@ -109,4 +112,4 @@ $ lando db-export
 * Demo: show .lando.yml
 * Demo `lando start`
 * Demo `lando info`
-* Demo `lando help`
+* Demo `lando` (help)

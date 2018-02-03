@@ -43,6 +43,7 @@
 * Specify stack in docksal.env
 * Generate docksal.yml -- Compose file -- to customize
 * `fin config generate` creates compose file docksal.yml
+* Services: db (MySQL), cli (php-fpm), web (Apache) (+ SSH, DNS, reverse proxy)
 
 
 ### Working with Apps
@@ -88,16 +89,20 @@ $ fin db dump my-db-dump.sql
 
 ### Extras
 
-* Add build steps in `fin init` (bash)
-* Addons: custom fin commands (bash)
-* Powerful CI service integrations
-* Override PHP/MySQL config in .docksal/etc
+* Drop-in additional services
+* Acquia stack
+* Easily override PHP/MySQL config
+* Tool integrations
+* Custom `fin` commands
 * Fin app aliases
 * `fin share`
 
 ~Notes:
-* CI: workflows w/ Compose, phpcs, phpunit, Behat, Travis
+* Services: solr, memcache, etc
+* PHP/MySQL config: .docksal/etc
+* Tools: e.g. Behat, phpcs, sass/compass
 * Aliases: `fin @myapp stop` from outside app dir
+* Share: via ngrok
 
 
 ### To the Terminal

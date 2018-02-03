@@ -27,16 +27,17 @@
 * Currently requires VirtualBox
 * Slower startup with VM
 * Slightly faster? on macOS, Win
-* Powerful CI integrations
+* Powerful tool integrations
 * Acquia "zero-configuration" stack
 
 
 ### Comparing: Lando
 
 * Docker concepts abstracted
+* Swiss army knife .lando.yml
 * Less mature than Docksal
 * Supports a wide range of apps
 * `lando` rocks
 * Incredibly extensible
-* Powerful CI service integrations
+* Powerful tool integrations
 * Tight integration with Pantheon

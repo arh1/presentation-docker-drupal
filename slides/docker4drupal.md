@@ -27,7 +27,6 @@
 1. Create your Drupal codebase
 1. Download Docker4Drupal's docker-compose.yml
 1. Compose file: Uncomment an image, change some paths 
-1. Set db credentials in settings.php
 1. Edit /etc/hosts to configure domains
 1. <pre><code class="bash" data-trim data-noescape>docker-compose up -d</code></pre>
 1. Site up at http://drupal.docker.localhost:8000
@@ -83,8 +82,8 @@ $ docker-compose exec mariadb sh -c 'exec mysqldump -uroot
 
 ### Extras
 
-* Deploy to Wodby!
-* Lots of Drupal-focused images
+* Deploy with Wodby!
+* Drop-in additional services
 
 
 ### To the Terminal
